@@ -1,16 +1,49 @@
-h1
+ h1
+ {
+    color: #E91E63;
+    text-align: center;
+    font-size: 90px;
+    font-family: Palatino, 'Palatino Linotype';
+    
+ }
+
+.w3-animate-top
 {
-  color: #E91E63;
-  text-align: center;
-  font-size: 90px;
-  font-family: Palatino, 'Palatino Linotype';
+    animation-duration: 3s;
+    animation-name: slidein;
 }
-body
-{
-  font-size: 20px;
+ body
+ {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+ }
+
+ .navbar ul
+ {
+    font-size: 30px;
+    list-style-type: none;
+    position: relative;
+    right: 50px;
+    margin-right: 100;
+    padding: 40;
+    border-spacing: 100;
 }
 
-ul
+.navbar ul li 
 {
-  font-size: 30px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.socialmedia ul 
+{
+    font-size: 30px;
+    list-style-type: none;
+    margin-right: 100;
+    padding: 40;
+    border-spacing: 100;
+    display: flex;
+    right: 50px;
 }
