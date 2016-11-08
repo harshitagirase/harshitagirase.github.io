@@ -1,3 +1,9 @@
+body
+{
+   font-size: 20px;
+   background: url("http://img0.mxstatic.com/wallpapers/f492296c4056448b07a1d81f9e2603b7_large.jpeg") no-repeat center center fixed;
+   background-size: cover;
+}
  h1
  {
     color: white;
@@ -5,11 +11,11 @@
     font-size: 100px;
     font-family: Palatino, 'Palatino Linotype';
  }
- body
+ img
  {
-    font-size: 20px;
-    background: url("http://img0.mxstatic.com/wallpapers/f492296c4056448b07a1d81f9e2603b7_large.jpeg") no-repeat center center fixed;
-    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 20%;
  }
 
  .navbar li
