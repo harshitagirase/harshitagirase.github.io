@@ -35,7 +35,8 @@
     display: flex;
     right: 50px;
 }
-.footer
+
+.row
 {
   position: absolute;
   right: 0;
@@ -45,5 +46,14 @@
   color: white;
   background-color: #0D47A1;
   text-align: center;
+  }
+  footer ul
+{
 
+  list-style: none;
+}
+footer li img
+{
+  width: 32px;
+  height: 32px;
 }
