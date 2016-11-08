@@ -1,16 +1,14 @@
-
  h1
  {
     color: white;
     text-align: center;
-    font-size: 400px;
+    font-size: 40px;
     font-family: Palatino, 'Palatino Linotype';
  }
-
  body
  {
     font-size: 20px;
-    background:  url("http://img0.mxstatic.com/wallpapers/f492296c4056448b07a1d81f9e2603b7_large.jpeg") no-repeat center center fixed;
+    background: url("http://img0.mxstatic.com/wallpapers/f492296c4056448b07a1d81f9e2603b7_large.jpeg") no-repeat center center fixed;
     background-size: cover;
  }
 
@@ -20,7 +18,7 @@
     display: inline;
     position: relative;
     top: 0px;
-    left: 350px;
+    left: 30px;
     padding: 40;
     border-spacing: 100;
     flex-wrap: wrap;
@@ -37,7 +35,15 @@
     display: flex;
     right: 50px;
 }
-#footer
+.footer
 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #0D47A1;
+;
   text-align: center;
+
 }
