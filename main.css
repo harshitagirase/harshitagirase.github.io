@@ -1,43 +1,34 @@
  h1
  {
-    color: #E91E63;
+    color:white;
     text-align: center;
     font-size: 90px;
     font-family: Palatino, 'Palatino Linotype';
-    
+
  }
 
-.w3-animate-top
-{
-    animation-duration: 3s;
-    animation-name: slidein;
-}
  body
  {
     font-size: 20px;
-    color: white;
+    color: black;
     background-color: black;
  }
 
- .navbar ul
+ .navbar li
  {
     font-size: 30px;
+    display: inline;
     list-style-type: none;
     position: relative;
-    right: 50px;
-    margin-right: 100;
+    top: 0px;
+    left: 350px;
     padding: 40;
     border-spacing: 100;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.navbar ul li 
-{
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center;
-}
-
-.socialmedia ul 
+.socialmedia ul
 {
     font-size: 30px;
     list-style-type: none;
