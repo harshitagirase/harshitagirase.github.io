@@ -1,3 +1,4 @@
+
  h1
  {
     color: white;
@@ -9,7 +10,8 @@
  body
  {
     font-size: 20px;
-    background-color: black;
+    background:  url("http://img0.mxstatic.com/wallpapers/f492296c4056448b07a1d81f9e2603b7_large.jpeg") no-repeat center center fixed;
+    background-size: cover;
  }
 
  .navbar li
@@ -34,4 +36,8 @@
     border-spacing: 100;
     display: flex;
     right: 50px;
+}
+#footer
+{
+  text-align: center;
 }
