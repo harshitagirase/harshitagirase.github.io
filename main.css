@@ -43,7 +43,7 @@ body
 
 .row
 {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -56,9 +56,11 @@ body
 {
 
   list-style: none;
+  position: fixed;
 }
 footer li img
 {
-  width: 32px;
+  width: 28px;
   height: 32px;
+  position: fixed;
 }
