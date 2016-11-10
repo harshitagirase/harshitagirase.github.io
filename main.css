@@ -1,6 +1,6 @@
 body
 {
-   font-size: 20px;
+   font-size: 14px;
    background: url("http://wallpapercave.com/wp/rXfXget.jpg") no-repeat center center fixed;
    background-size: cover;
 }
@@ -9,7 +9,8 @@ body
     color: white;
     text-align: center;
     font-size: 100px;
-    font-family: Palatino, 'Palatino Linotype';
+    font-family:'Work Sans', sans-serif;;
+    letter-spacing: 2px;
  }
  img
  {
@@ -49,7 +50,7 @@ body
   left: 0;
   padding: 1rem;
   color: white;
-  background-color: #0D47A1;
+  <!--background-color: #0D47A1;-->
   text-align: center;
   }
   footer ul
