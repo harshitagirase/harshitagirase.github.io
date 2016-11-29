@@ -20,6 +20,17 @@ h1
     letter-spacing: 1.5px;
  }
 
+ h3
+ {
+   font-size: 2em;
+   font-family:'Droid Sans', sans-serif;
+   border: 0px;
+   margin-top: 10px;
+   text-align: center;
+   color: white;
+
+ }
+
  .dodeca, .dodeca div
  {
   margin: 0 auto;
