@@ -2,51 +2,40 @@ body
 {
    font-size: 14px;
    background-color: black;
-   background-size: cover;
+
 }
 
-ul
-{
-  padding: 0;
-}
- h1
+h1
  {
     font-size: 5em;
-
     font-family:'Droid Sans', sans-serif;
     border: 0px;
     margin: 0px;
     text-align: center;
     color: white;
     letter-spacing: 1.5px;
-
  }
- .dodeca, .dodeca div {
+
+ .dodeca, .dodeca div
+ {
   margin: 0 auto;
   transform-origin: 50% 50%;
   overflow: hidden;
   width: 300px;
   height: 300px;
 }
-.dodeca {
+
+.dodeca
+{
   transform: rotate(120deg);
 }
-.dode1 {
+
+.dode1
+{
   transform: rotate(-60deg);
 }
 .dode2 {
   transform: rotate(-60deg);
-}
-
- .navbar li
- {
-    font-size: 15px;
-    display: inline;
-    position: relative;
-    padding: 40;
-    border-spacing: 100;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .col-sm-4 ul
