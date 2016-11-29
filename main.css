@@ -5,6 +5,10 @@ body
 
 }
 
+.header
+{
+  margin-top: 100px;
+}
 h1
  {
     font-size: 5em;
@@ -71,8 +75,4 @@ footer li img
   width: 28px;
   height: 32px;
   position: fixed;
-}
-
-.name{
-  position: relative;
 }
