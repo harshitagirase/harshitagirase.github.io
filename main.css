@@ -1,7 +1,7 @@
 body
 {
    font-size: 14px;
-   background-color: black;
+   background-image: url ("https://www.google.com/search?q=beautiful+background+for+website&espv=2&biw=1229&bih=587&source=lnms&tbm=isch&sa=X&ved=0ahUKEwihmuXwgPXQAhWHI8AKHbRNDtsQ_AUIBigB#tbm=isch&q=space+wallpaper&imgrc=R5uWpjqEh6htEM%3A");
 
 }
 
@@ -19,6 +19,8 @@ h1
     color: white;
     letter-spacing: 1.5px;
  }
+
+
 
  h3
  {
