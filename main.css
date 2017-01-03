@@ -4,6 +4,10 @@ h1{
   color: white;
 }
 
+#about h1{
+  color: black;
+}
+
 body{
   padding: 0px;
   margin: 0px;
@@ -59,4 +63,8 @@ ul li:hover{
 
 ul li a:hover{
   color: black;
+}
+
+h2{
+  color: #2196F3;
 }
