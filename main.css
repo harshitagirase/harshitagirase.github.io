@@ -1,10 +1,22 @@
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+
 body{
   padding: 0px;
   margin: 0px;
   font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
 
 }
 
+img{
+  margin-top: 20%;
+  position: relative;
+  left: 25%;
+
+}
 
 #sidebar{
   background: #2196F3;
@@ -12,14 +24,10 @@ body{
   width: 350px;
   display: block;
   position: absolute;
-  left: -350px;
+  left: 0px;
   top: 0px;
 }
 
-#sidebar.visible{
-  left: 0px;
-  transition: left 0.3s linear;
-}
 
 ul{
   margin: 0px;
@@ -41,29 +49,6 @@ ul li a{
 
 ul li:hover{
   background: white;
-}
-
-#sidebar-btn{
-  display: inline-block;
-  vertical-align: middle;
-  width: 20px;
-  height: 15px;
-  cursor: pointer;
-  margin: 20px;
-  position: absolute;
-  top: 0px;
-  right: -60px;
-}
-
-#sidebar-btn span{
-  height: 1px;
-  background: black;
-  margin-bottom: 5px;
-  display: block;
-}
-
-h1{
-  text-align: center;
-  font-size: 200px;
-
+  text-decoration: none;
+  transition: linear all 0.5s;
 }
