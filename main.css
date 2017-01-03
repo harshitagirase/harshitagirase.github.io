@@ -8,11 +8,14 @@ body{
   padding: 0px;
   margin: 0px;
   font-family: 'Droid Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
 
 }
 
 img{
+  border-radius: 100%;
+  width: 100%;
+  display: block;
   margin-top: 20%;
   position: relative;
   left: 25%;
@@ -44,7 +47,7 @@ ul li a{
   display:block;
   color: white;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
 }
 
