@@ -1,80 +1,69 @@
-h1
- {
-    font-size: 5em;
-    font-family:'Droid Sans', sans-serif;
-    border: 0px;
-    margin-top: 1.5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 1.5px;
- }
- body
-{
-   font-size: 14px;
-   background-color: black;
-   color: white;
-
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Droid Sans', sans-serif;
 
 }
 
-.header
-{
-  margin-top: 10%;
+
+#sidebar{
+  background: #2196F3;
+  height: 100%;
+  width: 350px;
+  display: block;
+  position: absolute;
+  left: -350px;
+  top: 0px;
 }
 
-
- h3
- {
-   font-size: 2em;
-   font-family:'Droid Sans', sans-serif;
-   border: 0px;
-   margin-top: 1%;
-   text-align: center;
-   color: white;
-
- }
-
- .dodeca, .dodeca div
- {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
+#sidebar.visible{
+  left: 0px;
+  transition: left 0.3s linear;
 }
 
-.dodeca
-{
-  transform: rotate(120deg);
+ul{
+  margin: 0px;
+  padding: 0px;
 }
 
-.dode1
-{
-  transform: rotate(-60deg);
-}
-.dode2 {
-  transform: rotate(-60deg);
-}
-
-.col-sm-4 ul
-{
-    font-size: 30px;
-    list-style-type: none;
-    margin-right: 100;
-    padding: 40;
-    border-spacing: 100;
-    display: flex;
-    right: 50px;
-}
-
-.row
-{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  color: white;
-  <!--background-color: #0D47A1;-->
+ul li{
+  list-style: none;
   text-align: center;
-  }
+}
+
+ul li a{
+  display:block;
+  color: black;
+  width: 100%;
+  padding: 15px;
+  text-decoration: none;
+}
+
+ul li:hover{
+  background: white;
+}
+
+#sidebar-btn{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  top: 0px;
+  right: -60px;
+}
+
+#sidebar-btn span{
+  height: 1px;
+  background: black;
+  margin-bottom: 5px;
+  display: block;
+}
+
+h1{
+  text-align: center;
+  font-size: 200px;
+
+}
