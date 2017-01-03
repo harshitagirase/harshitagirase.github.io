@@ -10,16 +10,51 @@
       <link rel="stylesheet" type="text/css" href="animate.css">
       <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
       <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
-      <script type="text/javascript" src="script.js">
-       </script>
+      <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+
 
 </head>
 
-<!-- Body -->
+
 <body>
 
-  <!-- Navigation Menu -->
 
+  <div id="sidebar">
+    <div class="header">
+      <img src="updatedimage.jpg" style="height:200px; width:175px" />
+        <h1> Harshita Girase</h1>
+        </div>
+      <ul>
+        <li> <a href="#"> Home </a> </li>
+        <li> <a href="#"> About </a> </li>
+        <li> <a href="#"> Leadership </a> </li>
+        <li> <a href="HarshitaResume.pdf" target="_blank"> Résumé </a> </li>
+        <li> <a href="#"> Projects </a> </li>
+        <li> <a href="#"> Contact </a> </li>
+     </ul>
+     <div id="sidebar-btn">
+     <span> </span>
+     <span> </span>
+     <span> </span>
+   </div>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  <script>
+  $(document).ready(function(){
+    $('#sidebar-btn').click(function(){
+      $('#sidebar').toggleClass('visible');
+
+    })
+  })
+
+  </script>
+
+
+
+
+
+<!--
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom affix">
   <div class="container">
       <div class="navbar-header page-scroll">
@@ -28,7 +63,12 @@
             <i class="fa fa-bars"> </i>
         </button>
       </div>
-      <div class="collapse navbar-collapse" id= "bs-example-navbar-collapse-1">
+
+
+      <div id="sidebar">
+
+      </div>
+      <!div class="collapse navbar-collapse" id= "bs-example-navbar-collapse-1">
         <ul class= "nav navbar-nav navbar-right">
            <li class= "hidden active">
              <a href="page-top"> </a> </li>
@@ -47,10 +87,9 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav-->
 
-  <!-- Header -->
-    <div class="header">
+  <!-- div class="header">
 
         <div class="dodeca">
           <div class="dode1">
@@ -64,20 +103,21 @@
         <h1> Harshita Girase</h1>
         <h3> Computer Science &bull; Microsoft Student Partner &bull; Student Leader &bull; Aspiring Entrepreneur</h3>
       </div>
-    </div>
+    </div-->
 
 
 
 
 
 <!--ABOUT -->
-     <div id=#about>
+     <!--div id=#about>
     <p> Hello world! I am a sophomore at the University at Buffalo studying Computer Science. </p>
     <p> I am an active student leader on campus who loves to get involved in various organizations. I am currently exploring the field of Web Development. I strive to learn something new each day and hope to give back to the commnity in whatever way possible.</p>
     <p> I am an aspiring entrepreneur and I hope to start a company which would have an impact on technology, education and people. </p>
   </div>
 
-  <!--LEADERSHIP-->
+  <LEADERSHIP-->
+  <!--
 <h3> Microsoft Student Partner </h3>
 <h5> <i>October 2016- present</i> </h5>
 <p> Microsoft Student Partners (MSPs) are student technology leaders, empowered to build Microsoft communities on their campus and share their deep knowledge and passion for technology with their fellow classmates.</p>
@@ -113,11 +153,13 @@
 </ul>
 
 
-<!--PROJECTS-->
+<PROJECTS-->
 
 
-<!--CONTACTS-->
+<!--CONTACT>
 
+ <h4> Get in touch with me! </h4>
+ -->
 </body>
 
 </html>
