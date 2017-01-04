@@ -2,10 +2,11 @@ h1{
   text-align: center;
   font-size: 3em;
   color: white;
+  letter-spacing: 0.05em;
 }
 
-#about h1{
-  color: black;
+h2{
+  color: #2196F3;
 }
 
 body{
@@ -31,7 +32,7 @@ img{
   height: 100%;
   width: 350px;
   display: block;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
 }
@@ -63,8 +64,11 @@ ul li:hover{
 
 ul li a:hover{
   color: black;
-}
+  }
 
-h2{
-  color: #2196F3;
+.copyright{
+  color: white;
+  font-size: 0.7em;
+  padding: 90px;
+
 }
