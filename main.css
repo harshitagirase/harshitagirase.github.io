@@ -70,5 +70,11 @@ ul li a:hover{
   color: white;
   font-size: 0.7em;
   padding: 90px;
+}
 
+#hey h1
+{
+  font-size: 3em;
+  color:#0D47A1;
+  text-align: center;
 }
