@@ -59,7 +59,7 @@ ul li a{
 ul li:hover{
   background: white;
   text-decoration: none;
-  transition: linear all 0.5s;
+  transition: linear all 0.8s;
 }
 
 ul li a:hover{
