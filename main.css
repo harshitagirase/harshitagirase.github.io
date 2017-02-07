@@ -1,91 +1,81 @@
-body
-{
-   font-size: 14px;
-   background-color: black;
-
-}
-
-.header
-{
-  margin-top: 100px;
-}
-h1
- {
-    font-size: 5em;
-    font-family:'Droid Sans', sans-serif;
-    border: 0px;
-    margin-top: 1.5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 1.5px;
- }
-
-
-
- h3
- {
-   font-size: 2em;
-   font-family:'Droid Sans', sans-serif;
-   border: 0px;
-   margin-top: 1%;
-   text-align: center;
-   color: white;
-
- }
-
- .dodeca, .dodeca div
- {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-
-.dodeca
-{
-  transform: rotate(120deg);
-}
-
-.dode1
-{
-  transform: rotate(-60deg);
-}
-.dode2 {
-  transform: rotate(-60deg);
-}
-
-.col-sm-4 ul
-{
-    font-size: 30px;
-    list-style-type: none;
-    margin-right: 100;
-    padding: 40;
-    border-spacing: 100;
-    display: flex;
-    right: 50px;
-}
-
-.row
-{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  color: white;
-  <!--background-color: #0D47A1;-->
+h1{
   text-align: center;
-  }
-  footer ul
-{
-
-  list-style: none;
-  position: fixed;
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0.05em;
 }
-footer li img
-{
-  width: 28px;
-  height: 32px;
+
+h2{
+  color: white;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.8em;
+  background-color: #3F51B5;
+
+}
+
+img{
+  border-radius: 100%;
+  width: 100%;
+  display: block;
+  margin-top: 20%;
+  position: relative;
+  left: 25%;
+
+}
+
+#sidebar{
+  background: #F06292;
+  height: 100%;
+  width: 350px;
+  display: block;
   position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li{
+  list-style: none;
+  text-align: center;
+}
+
+ul li a{
+  display:block;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul li:hover{
+  background: white;
+  text-decoration: none;
+  transition: linear all 0.8s;
+}
+
+ul li a:hover{
+  color: black;
+  }
+
+.copyright{
+  color: white;
+  font-size: 0.7em;
+  padding: 90px;
+}
+
+#hey h1
+{
+  font-size: 3em;
+  color:white;
+  text-align: center;
 }
