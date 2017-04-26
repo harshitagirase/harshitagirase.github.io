@@ -1,0 +1,26 @@
+.globl main
+.globl initialize
+
+.data
+matrix1: .word 5, 6, 2, 7, 8, 1
+matrix2: .word 3, 7, 2, 8, 9, 0
+matrix3: .word 5, 6, 2, 7, 8, 1
+matrix4: .word 3, 7, 2, 8, 9, 0
+add_result: .word 1, 1, 1, 1, 1, 1
+mult_result: .word 1, 1, 1, 1, 1, 1
+.text
+
+#In your code DO NOT CHANGE $s0 - $s3 unless you know how to restore the values.
+main:
+            jal initialize
+
+
+# Used to load matrices addresses into corresponding registers
+# DO NOT TOUCH
+initialize:
+            la $s2, matrix1
+            la $s3, matrix2
+            la $s0, matrix3
+            la $s1, matrix4
+            la $s4, add_result
+            la $s5, mult_result
