@@ -1,0 +1,106 @@
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  .hero {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-image: url("http://hddesktopwallpapers.in/wp-content/uploads/2015/07/cloud-wallpaper-cartoon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .hero-inner{
+    color: white;
+    margin-left:10%;
+  }
+  h3 {
+    padding-top: 3%;
+    color: #0067AC;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .brief {
+    font-size: 130%;
+    padding-top: 7%;
+    text-align: center;
+    color: #0067AC;
+    font-size: 1.9em;
+    line-height: 200%;
+    position: relative;
+  }
+  nav li a {
+    color: #BDBDBD;
+    font-weight: bold;
+  }
+  nav li a:hover{
+    color: white;
+  }
+  .dropdown-menu{
+    background-color: #0067AC;
+    color: white;
+  }
+  .dropdown-menu a{
+    color: white;
+  }
+  .dropdown-menu a:hover{
+    color: #0067AC;
+  }
+  img{
+    padding: 7%;
+  }
+  .customer {
+    padding-top: 6%;
+    padding-bottom: 3%;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .customer-image img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  .customer-image img:hover {
+    opacity: 1;
+  }
+  footer{
+    background-color:#0067AC;
+    color: white;
+    text-align: center;
+    height: 100px;
+    position: relative;
+  }
+  .footer-text{
+    padding-top: 1.5%;
+  }
+  .fa {
+    padding-top: 1%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #BDBDBD;
+  }
+  .social-media a:hover{
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  @media only screen and (max-width: 700px) {
+    img {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    img {
+        width: 100%;
+    }
+  }
+  
