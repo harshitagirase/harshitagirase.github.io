@@ -101,7 +101,7 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: transparent;
     border: none;
 }
 
@@ -114,7 +114,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #0D47A1;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 33px 0px 57px;
